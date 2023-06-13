@@ -35,14 +35,6 @@ function MicAccessTool(init) {
 	this.micContrastHard.addEventListener('click', this.contrastChange);
 
 
-	// DISABLE BUTONS
-	this.micDisableButtonsAnimations = document.getElementById('mic-toolbox-disable-buttons-animations');
-	this.micDisableButtonsKeyboard = document.getElementById('mic-toolbox-disable-buttons-keyboard');
-
-	this.micDisableButtonsAnimations.addEventListener('click', this.onceButtonChange);
-	this.micDisableButtonsKeyboard.addEventListener('click', this.onceButtonChange);
-
-
 	// FONT CHANGE BUTTONS
 	this.micToolboxFontsUp = document.getElementById('mic-toolbox-fonts-up');
 	this.micToolboxFontsDown = document.getElementById('mic-toolbox-fonts-down');
@@ -163,11 +155,6 @@ MicAccessTool.prototype.cursorChange = function(event) {
 
 MicAccessTool.prototype.onceButtonChange = function(event) {
 	event.preventDefault();
-
-	if (this.id === 'mic-toolbox-disable-buttons-keyboard') {
-		window.MICTOOLBOXAPPSTATE.keyboardRoot = !window.MICTOOLBOXAPPSTATE.keyboardRoot;
-		MicAccessTool.prototype.keyboardRootEnable();
-	}
 
 	if (this.id === 'mic-toolbox-content-images') {
 		MicAccessTool.prototype.imagesChange();
