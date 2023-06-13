@@ -29,9 +29,10 @@
     "gulp-htmlmin": "^5.0.1",
     "gulp-notify": "^3.2.0",
     "gulp-rename": "^1.4.0",
-    "gulp-sass": "^4.0.2",
+    "gulp-sass": "^5.1.0",
     "gulp-uglify": "^3.0.2",
     "gulp-util": "^3.0.8",
+    "node-sass": "^9.0.0",
     "rimraf": "^2.6.3"
   },
   "bugs": {
