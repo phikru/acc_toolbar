@@ -394,11 +394,6 @@ MicAccessTool.prototype.initialApp = function() {
 		var contrastBlock = document.getElementById('mic-toolbox-contrast-block');
 		contrastBlock.style.display = 'none';
 	}
-	if (this.init.link) {
-		var initLink = document.getElementById('mic-toolbox-link-nagishut') || {};
-		initLink.classList.remove('atb-hide-if-empty');
-		initLink.href = this.init.link;
-	}
 	if (this.init.contact) {
 		var initContact = document.getElementById('mic-toolbox-link-contact') || {};
 		initContact.classList.remove('atb-hide-if-empty');
