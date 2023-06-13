@@ -136,37 +136,37 @@
     }
   },
   "de_DE": {
-    "btn_open": "accessibility menu",
+    "btn_open": "Hilfefunktionen",
     "btn_close": "schließen",
     "keyboard_root": "Navigation mit Tastatur",
     "disable_animattions": "Animationen blockieren",
     "access_declaration": "accessibility statement",
-    "debug_contacts": "report an accessibility problem",
-    "reset_all_settings": "reset settings",
-    "image_without_alt": "image without text",
+    "debug_contacts": "Problem melden",
+    "reset_all_settings": "Einstellung zurücksetzen",
+    "image_without_alt": "Bild ohne Text",
     "contrast_block": {
-      "header": "color contrast",
-      "btn_monochrome": "uncolored<br>display",
-      "btn_bright": "bright<br>contrast",
-      "btn_invert": "invert<br>colors"
+      "header": "Farbe und Kontrast",
+      "btn_monochrome": "Graustufen",
+      "btn_bright": "Hoher<br>Kontrast",
+      "btn_invert": "Farben<br>umdrehen"
     },
     "text_block": {
-      "header": "text size",
-      "btn_font_up": "increase<br>text",
-      "btn_font_down": "decrease<br>text",
-      "btn_font_readable": "readable<br>text"
+      "header": "Textgröße",
+      "btn_font_up": "Text<br>größer",
+      "btn_font_down": "Text<br>kleiner",
+      "btn_font_readable": "Einfache<br>Schriftart"
     },
     "content_block": {
-      "header": "highlighting content",
-      "btn_underline_links": "underline<br>links",
-      "btn_underline_headers": "underline<br>headers",
-      "btn_images_titles": "images<br>titles"
+      "header": "Inhalt hervorheben",
+      "btn_underline_links": "Links<br>unterstreichen",
+      "btn_underline_headers": "Überschriften<br>unterstreichen",
+      "btn_images_titles": "Bildtitel<br>anzeigen"
     },
     "zoom_block": {
-      "header": "zoom in",
-      "btn_cursor_white": "big white<br>cursor",
-      "btn_cursor_black": "big black<br>cursor",
-      "btn_zoom_in": "zoom<br>screen"
+      "header": "vergrößern",
+      "btn_cursor_white": "großer weißer<br>Mauszeiger",
+      "btn_cursor_black": "großer schwarzer<br>Mauszeiger",
+      "btn_zoom_in": "Bildschirm<br>vergrößern"
     }
   }
 }
