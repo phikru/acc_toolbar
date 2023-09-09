@@ -158,8 +158,8 @@
     },
     "content_block": {
       "header": "Inhalt hervorheben",
-      "btn_underline_links": "Links",
-      "btn_underline_headers": "Überschriften",
+      "btn_underline_links": "Links<br>unterstreichen",
+      "btn_underline_headers": "Überschriften<br>unterstreichen",
       "btn_images_titles": "Bildtitel<br>anzeigen"
     },
     "zoom_block": {
